@@ -5,5 +5,6 @@ nums = [-108, 977, 915, -19, -32, -723, -621, -9, -924, 895, -476, -959, 828, 86
 xor = 0
 for num in nums:
     xor ^= num
+    print(xor)
 
 print(xor)
